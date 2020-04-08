@@ -1,9 +1,9 @@
 //
 //  Category.swift
-//  Coder-Swag
+//  coder-swag
 //
-//  Created by Nico Yeager on 4/7/20.
-//  Copyright © 2020 Nico Yeager. All rights reserved.
+//  Created by Mark Price on 6/27/17.
+//  Copyright © 2017 Devslopes. All rights reserved.
 //
 
 import Foundation
@@ -12,9 +12,8 @@ struct Category {
     private(set) public var title: String
     private(set) public var imageName: String
     
-    init(title: String, imageName: String){
+    init(title: String, imageName: String) {
         self.title = title
         self.imageName = imageName
-        
     }
 }
